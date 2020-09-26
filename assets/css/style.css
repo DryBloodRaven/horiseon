@@ -1,3 +1,4 @@
+/* Style that is being applied to the whole html content */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
+/* End style being applied to whole content */
 
 /* Start of header style */
 .header {
