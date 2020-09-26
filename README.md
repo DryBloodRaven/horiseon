@@ -1,16 +1,15 @@
 # Horiseon
 
+## Purpose
 
-##Purpose
-
-##Built With
-*HTML
-*CSS
-
-##Website
-
-
-#Screenshot
+## Built With
+* HTML
+* CSS
+ 
+## Website
 
 
-#Contribution
+# Screenshot
+
+
+# Contribution
