@@ -7,7 +7,7 @@
 * CSS
  
 ## Website
-httpS//drybloodraven.guthub.io/horiseon/
+https://drybloodraven.guthub.io/horiseon/
 
 ## Screenshot
 
