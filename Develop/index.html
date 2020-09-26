@@ -1,16 +1,19 @@
 <!DOCTYPE html>
+<!-- Attribute inside HTML tag showing that this website is meant to be displayed in US English -->
 <html lang="en-us">
-
+<!-- Head tag links the CSS Style Sheet and also shows the title of the Website (Changing title to 'Horiseon' -->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
 </head>
-
+<!-- Start of what displays on the website -->
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+    <!-- Header is contained within a div tag, changing this to a header tag -->
+    <header class="header">
+        <!-- Moved the class attribute in to the h1 tag and removed the span tags from within the middle of the content of h1-->
+        <h1 class="seo">Horiseon</h1>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,11 +25,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <!-- The link was broken, added an id attribute -->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -71,12 +75,13 @@
             </p>
         </div>
     </div>
-    <div class="footer">
+    <!-- Change the tag from div to footer -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
