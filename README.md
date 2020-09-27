@@ -10,6 +10,6 @@
 https://drybloodraven.github.io/horiseon/
 
 ## Screenshot
-![screenshot](./assets/images/screenshot.jpg)
+[image] (./assets/images/Screenshot.PNG)
 
 ## Contribution
