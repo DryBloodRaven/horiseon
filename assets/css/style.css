@@ -1,4 +1,4 @@
-/* Style that is being applied to the whole html content */
+/* Style that is being applied to all html content */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,9 +8,10 @@
 body {
     background-color: #d9dcd6;
 }
-/* End style being applied to whole content */
+/* End style being applied to all html content */
 
 /* Start of header style */
+/* None of the header styles could be consolidated since they all have differnt parts they are changing */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -44,7 +45,7 @@ body {
     margin-left: 25px;
 }
 
-/* added the .header to this style because this was the only instance of the a tag
+/* added the .header class to this style because this was the only instance of the <a> tag
 and if more were added down the road I didn't wan't the wrong styling applied to the new tags */
 .header a {
     color: #ffffff;
@@ -68,6 +69,7 @@ p {
 /* End of hero style */
 
 /* Start of content style */
+/* Adjusted the layout of the content section to align with how the html flows */
 .content {
     width: 75%;
     display: inline-block;
@@ -83,7 +85,7 @@ p {
     font-size: 36px;
 }
 
-/*consolidated all the content div into one style since they had the same style attributes */
+/*consolidated all the content section into one style since they had the same style attributes applied */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,6 +129,8 @@ p {
     text-align: center;
 }
 
+/* Added a new class attribute for the <img> tags in the html code to consolidate the CSS code below.
+When I tried to consolidate like above the images went back to their original size and would decrease back to wha tthe mock up had. */
 .benefit-img {
     display: block;
     margin: 10px auto;

@@ -1,7 +1,8 @@
+<!-- The <!DOCTYPE html> tells the browser that this is an HTML5 webpage-->
 <!DOCTYPE html>
-<!-- Attribute inside HTML tag showing that this website is meant to be displayed in US English -->
+<!-- Attribute inside <html> element showing that this website is meant to be displayed in US English -->
 <html lang="en-us">
-<!-- Head tag links the CSS Style Sheet and also shows the title of the Website (Changing title to 'Horiseon' -->
+<!-- <head> element links the CSS Style Sheet and also shows the title of the Website (Changing title to 'Horiseon') -->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -9,10 +10,10 @@
 </head>
 <!-- Start of what displays on the website -->
 <body>
-    <!-- Header is contained within a div tag, changing this to a header tag -->
+    <!-- The header class is contained within a <div> element, changing this to a <header> element to make this a semantic html element -->
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- Changed the div tag to a nav tag since this section is the navigation part of the page -->
+        <!-- Changed the <div> element to a <nav> element since this section is the navigation part of the page. The <nav> element is also a semantic element -->
         <nav>
             <ul>
                 <li>
@@ -27,13 +28,13 @@
             </ul>
         </nav>
     </header>
-    <!-- Hero area, changed div tag to figure tag since there is only an image being displayed through CSS -->
+    <!-- Hero area, changed <div> element to <figure> element since there is only a background image being displayed through CSS. The <figure> element is also a semantic element -->
     <figure class="hero"></figure>
-    <!-- Start of Content, changed beginning div tag to section -->
+    <!-- Start of content area, changed beginning <div> element to <article> since the new element is a semantic element and this content is more self-contained -->
     <article class="content">
-        <!-- The link was broken, added an id attribute to link to above href. Alse chaning the div tags to article tags -->
+        <!-- The link was broken, added an id attribute to link to above href. Alse chaning the next 3 <div> tags to <section> elements since they were not semantic elements -->
         <section id="search-engine-optimization" class="search-engine-optimization">
-            <!-- Added an alt attribute to the img tag to make this more accessable -->
+            <!-- Added an alt attribute to the <img> element to make this more accessable -->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook open to page showing several Search Engine Opimization strategies" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -41,27 +42,28 @@
             </p>
         </section>
         <section id="online-reputation-management" class="online-reputation-management">
-            <!-- Added an alt attribute to the img tag to make this more accessable -->
-            <img src="./assets/images/online-reputation-management.jpg" alt="Laptop that has a graph open showing the increase of reputation" class="float-right" />
+            <!-- Added an alt attribute to the <img> element to make this more accessable -->
+            <img src="./assets/images/online-reputation-management.jpg" alt="Laptop that has a bar graph showing the increase of reputation" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
         <section id="social-media-marketing" class="social-media-marketing">
-            <!-- added an alt attribute to the img tag to make this more accessable -->
-            <img src="./assets/images/social-media-marketing.jpg" alt="table showwing different social media terms like Tweet, Like, Share and Media" class="float-left" />
+            <!-- added an alt attribute to the <img> element to make this more accessable -->
+            <img src="./assets/images/social-media-marketing.jpg" alt="Table showwing different social media terms like Tweet, Like, Share and Media" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
     </article>
-    <!-- changed the div tag to section to help organize the html -->
+    <!-- changed the <div> element to <aside> to help organize the html and change the element to a semantic one. This also helps the flow of html to show that the next content is going to be on the side of the webpage -->
     <aside class="benefits">
         <section class="benefit-lead">
             <h3>Lead Generation</h3>
-            <!-- Adding empty alt tags to the next 3 images so browsers know to ignore them since they are not vital to the page -->
+            <!-- Adding empty alt attributes to the next 3 images so browsers know to ignore them since they are not vital to the page -->
+            <!-- Also added a new class attribute to the <img> elements to help consolidate the CSS code -->
             <img src="./assets/images/lead-generation.png" alt="" class="benefit-img" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
@@ -76,14 +78,14 @@
         </section>
         <section class="benefit-cost">
             <h3>Cost Management</h3>
-            <!-- removed the end img tag since it is not neccesary and replaced it with the proper close tag -->
+            <!-- removed the end <img> tag since it is not neccesary and replaced it with the proper close tag -->
             <img src="./assets/images/cost-management.png" alt="" class="benefit-img" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </section>
     </aside>
-    <!-- Change the tag from div to footer -->
+    <!-- Change the element from <div> to <footer> since the previous one was not a semantic element -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
