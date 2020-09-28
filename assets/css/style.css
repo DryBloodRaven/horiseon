@@ -129,6 +129,11 @@ p {
     text-align: center;
 }
 
+/*Added the following code since the <p> content was not aligning properly per the mock up provided */
+.benefits p {
+    text-align: left;
+}
+
 /* Added a new class attribute for the <img> tags in the html code to consolidate the CSS code below.
 When I tried to consolidate like above the images went back to their original size and would decrease back to wha tthe mock up had. */
 .benefit-img {
