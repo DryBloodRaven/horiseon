@@ -2,8 +2,8 @@
 
 ## Purpose
 Refactored the code to make it meet accessability standards<br />
-Refactored the code to incorporate more semantic HTML elements<br />
-Refactored to code to consolidate CSS code down to reduce redundant code<br />
+Removed the old div tags and replaced them with semantic HTML tags<br />
+Consolidated the CSS code to reduce duplicate code and also reorganized it to follow the HTML structure<br />
 Added Notes to both HTML and CSS to explain what what changed and also explain the flow of the code<br />
 
 ## Built With
